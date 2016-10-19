@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- =============================================================== -->
+<!-- Author : Ravy Thok                                              -->
+<!-- Email : ravy_thok@student.uml.edu                               -->
+<!-- School : UMass Lowell                                           -->
+<!-- Course : COMP 4610 - GUI Programming I                          -->
+<!-- Assignment :  No. 2: Creating Your First Web Page               -->
+<!--                                                                 -->
+<!-- Filename: assignment)page.html                                            -->
+<!-- Created : September 12, 2016 at 2:10 pm                         -->
+<!-- Updated : October 4, 2016 at 2:12 pm                            -->
+<!-- =============================================================== -->
+
+<html lang="en">
+<head>
+<title>Ravy's First Web Page</title>
+
+<!-- This defines the classes for the header,footer, navigation
+and article section of the web page -->
+<meta charset="utf-8">
+<link href="style.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<div class="container">
+  
+<!-- Creating the header section of the web page -->
+<header>
+<h1>Welcome to Ravy's First Web page!</h1>
+</header>
+
+<!-- Creates the navigation section of the web page-->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="assignment_page.html">Assignments</a>
+</nav>
+
+<!-- Creating the article section of the web page -->
+<article>
+<h3><ins>Homeworks:</ins></h3>
+     
+<!-- Creating an unordered list for the homeworks --> 
+<ul>
+  <li> Homework # 1</li>
+  <li> Homework # 2</li>
+</ul>   
+
+<!-- Creating an unordered list for the assignments --> 
+<h3><ins>In-class Assignments:</ins></h3>
+<ul>
+  <li>Assignment # 2</li>
+</ul>
+</article>
+
+<!-- Creating the footer section of the web page -->
+<footer>
+  <p> Designed by Ravy Thok- GUI Programming I</p>
+  <p>Last updated Oct 4<sup>th</sup>, 2016</p>
+</footer>
+
+</div>
+</body>
+</html>
